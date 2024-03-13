@@ -40,7 +40,7 @@ default: 1
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 62.5%; /* 10px */
 }
 
 body {
@@ -52,12 +52,11 @@ body {
 /* ---------------------------------------------------------------------------- START CODE BELOW */
 
 .hero-container {
+  border: dashed 1px black;
+  margin: 0 auto;
+  max-width: 130rem; /* 1300px */
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
-
-.hero-container > div {
-  border: dashed 1px black;
 }
 
 .hero-img {
