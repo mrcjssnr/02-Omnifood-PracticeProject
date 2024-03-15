@@ -6,17 +6,15 @@ We are a technology company first, but with a major focus on consumer well-being
 
 ## Branding
 
-Headline: A healthy meal delivered to your door, every single day
+Headline: 
 
-Brand color: #e67e22
+Brand color:
 
 ## Omnifood Website Content
 
 ### Summary
 
-The smart 365-days-per-year food subscription that will make you eat
-healthy again. Tailored to your personal tastes and nutritional
-needs. We have delivered 250,000+ meals last year!
+
 
 ### Omnifood features
 
@@ -29,7 +27,7 @@ Pause anytime: Going on vacation? Just pause your subscription, and we refund un
 
 [Show big app images]
 
-**Your daily dose of health in 3 simple steps**
+
 
 Tell us what you like (and what not): Never again waste time thinking about what to eat! Omnifood AI will create a 100% personalized weekly meal plan just for you. It makes sure you get all the nutrients and vitamins you need, no matter what diet you follow!
 
@@ -53,13 +51,7 @@ Kid-friendly
 
 **Omnifood AI chooses from 5,000+ recipes**
 
-Meal 1: Japanese Gyozas
 
-- Category: Vegetarian
-- Calories: 650
-- NutriScore (Registered): 74
-- Average rating: 4.9
-- Number reviews: 537
 
 Meal 2: Avocado Salad
 
