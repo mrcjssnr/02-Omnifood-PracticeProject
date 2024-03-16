@@ -12,12 +12,13 @@
 
     <link rel="stylesheet" href="./css/general.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/queries.css">
+    <link rel="stylesheet" href="./css/queries.css" />
 
     <title>Omnifood</title>
   </head>
   <body>
     <!-- NAV BAR -->
+    <!-- nav-open // to open-->
     <header class="header">
       <a href="#"
         ><img src="./img/omnifood-logo.png" alt="Omnifood logo" class="logo"
@@ -31,6 +32,12 @@
           <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
         </ul>
       </nav>
+
+      <!-- Menu Button -->
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
 
     <main>
@@ -590,6 +597,7 @@
                 <div>
                   <label for="email">Email address</label>
                   <input
+                    autocomplete="email"
                     id="email"
                     type="email"
                     placeholder="email@example.com"
@@ -599,7 +607,7 @@
 
                 <div>
                   <label for="select-where">Where did you hear from us?</label>
-                  <select name="" id="select-where" required>
+                  <select id="select-where" required>
                     <option value="">Please choose one option:</option>
                     <option value="friends">Friends and family</option>
                     <option value="youtube">Youtube video</option>
@@ -634,13 +642,19 @@
 
           <ul class="social-links">
             <li>
-              <a class=footer-link href="#"><ion-icon class="social-icon" name="logo-instagram"></ion-icon></a>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
             </li>
             <li>
-              <a class=footer-link href="#"><ion-icon class="social-icon" name="logo-facebook"></ion-icon></a>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
             </li>
             <li>
-              <a class=footer-link href="#"><ion-icon class="social-icon" name="logo-twitter"></ion-icon></a>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
             </li>
           </ul>
 
@@ -651,10 +665,15 @@
         <div class="address-col">
           <p class="footer-heading">Contact us</p>
           <address class="contacts">
-            <p class="address">623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
+            <p class="address">
+              623 Harrison St., 2nd Floor, San Francisco, CA 94107
+            </p>
             <p>
-              <a class=footer-link href="tel:415-201-6370"> 415-201-6370 </a><br />
-              <a class=footer-link href="mailto:hello@omnifood.com">hello@omnifood.com</a>
+              <a class="footer-link" href="tel:415-201-6370"> 415-201-6370 </a
+              ><br />
+              <a class="footer-link" href="mailto:hello@omnifood.com"
+                >hello@omnifood.com</a
+              >
             </p>
           </address>
         </div>
@@ -699,4 +718,4 @@
     ></script>
   </body>
 </html>
- class="footer-link"
+class="footer-link"
