@@ -11,7 +11,7 @@ btnNavEl.addEventListener("click", function () {
 ///////////////////////////////////////////////////////////
 // Smooth scrolling animation
 
-const allLinks = document.querySelectorAll("a:link");
+/* const allLinks = document.querySelectorAll("a:link");
 
 allLinks.forEach(function (link) {
   link.addEventListener("click", function (e) {
@@ -35,12 +35,13 @@ allLinks.forEach(function (link) {
     if (link.classList.contains("main-nav-link"))
       headerEl.classList.toggle("nav-open");
   });
-});
+}); */
 
 ///////////////////////////////////////////////////////////
 // Sticky navigation
 
 const sectionHeroEl = document.querySelector(".section-hero");
+const header = document.querySelector(".header");
 
 const obs = new IntersectionObserver(
   function (entries) {
@@ -48,11 +49,11 @@ const obs = new IntersectionObserver(
     console.log(ent);
 
     if (ent.isIntersecting === false) {
-      document.body.classList.add("sticky");
+      header.classList.add("sticky");
     }
 
     if (ent.isIntersecting === true) {
-      document.body.classList.remove("sticky");
+      header.classList.remove("sticky");
     }
   },
   {
@@ -135,4 +136,4 @@ checkFlexGap();
     margin-bottom: 4.8rem;
   }
 }
-*/
+ */
