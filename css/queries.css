@@ -130,6 +130,7 @@
     transform: translateX(100%);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
+    z-index: 11;
 
     display: flex;
     align-items: center;
